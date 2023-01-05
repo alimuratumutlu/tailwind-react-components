@@ -5,4 +5,4 @@ TailwindCSS based Git Submodule Repo. I use this repo for personal projects. It 
 
 https://www.creative-tim.com/learning-lab/tailwind-starter-kit/documentation/quick-start
 
-git submodule add https://github.com/muum/muumwind src/components
+git submodule add https://github.com/muum/muumwind src/components/muumwind
