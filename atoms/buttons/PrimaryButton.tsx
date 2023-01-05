@@ -1,7 +1,11 @@
-import React, {memo} from "react";
+import React, { memo } from "react";
 
-const PrimaryButton = ({ children, disabled }) => {
+interface PrimaryButtonProps {
+	children: React.ReactNode;
+	disabled?: boolean;
+}
 
+const PrimaryButton = ({ children, disabled }: PrimaryButtonProps) => {
 	return (
 		<button
 			type="submit"
@@ -11,6 +15,6 @@ const PrimaryButton = ({ children, disabled }) => {
 			{children}
 		</button>
 	);
-}
+};
 
 export default memo(PrimaryButton);
